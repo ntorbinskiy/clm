@@ -1,0 +1,20 @@
+{
+  "slides": [
+    {
+      "mapname": "",
+      "name": "add-slide-num-info",
+      "filename": "00-slide-add-slide-num.html",
+      "preview": "00-preview-add-slide-num.png",
+      "position": 0,
+      "ishidden": 0
+    },
+    {
+      "mapname": "crosscrm_api_docs",
+      "name": "save-clm-answer",
+      "filename": "01-slide-save-answer.html",
+      "preview": "01-preview-save-answer.png",
+      "position": 1,
+      "ishidden": 0
+    }
+  ]
+}
