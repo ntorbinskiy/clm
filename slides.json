@@ -1,10 +1,10 @@
 {
   "slides": [
     {
-      "mapname": "",
-      "name": "add-slide-num-info",
-      "filename": "00-slide-add-slide-num.html",
-      "preview": "00-preview-add-slide-num.png",
+      "mapname": "medicine-list",
+      "name": "medicine-list",
+      "filename": "00-slide-medicine-list.html",
+      "preview": "00-preview-medicine-list.png",
       "position": 0,
       "ishidden": 0
     },
