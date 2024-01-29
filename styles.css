@@ -129,16 +129,28 @@ table {
 /* RESET CSS */
 
 body {
-  padding: 50px;
+  padding: 158px 50px;
   font-family: Montserrat;
+}
+.triangle {
+  position: absolute;
+  pointer-events: none;
+  z-index: -1;
 }
 
 .red-triangle {
-  width: 0;
-  height: 0;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
-  border-bottom: 50px solid red;
+  top: 0;
+  left: 0;
+}
+
+.blue-gradient-triangle {
+  right: 0;
+  top: -119px;
+}
+
+.blue-triangle {
+  right: 0;
+  bottom: 0;
 }
 
 .medicine-list {
@@ -172,6 +184,8 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
+  max-width: 158px;
+  align-items: center;
 }
 
 .medicine-text-kids {
@@ -185,4 +199,21 @@ body {
   position: absolute;
   left: 190px;
   top: -8px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    position: relative;
+  }
+
+  .medicine-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blue-gradient-triangle {
+    top: 33%;
+  }
 }
