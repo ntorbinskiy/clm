@@ -107,10 +107,7 @@ section {
 body {
   line-height: 1;
 }
-ol,
-ul {
-  list-style: none;
-}
+
 blockquote,
 q {
   quotes: none;
@@ -127,94 +124,3 @@ table {
 }
 
 /* RESET CSS */
-
-body {
-  padding: 158px 50px;
-  font-family: Montserrat;
-}
-
-.triangle {
-  position: absolute;
-  pointer-events: none;
-  z-index: -1;
-}
-
-.red-triangle {
-  top: 0;
-  left: 0;
-}
-
-.blue-gradient-triangle {
-  right: 0;
-  top: -119px;
-}
-
-.blue-triangle {
-  right: 0;
-  bottom: 0;
-}
-
-.medicine-list {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto;
-  justify-content: space-evenly;
-  row-gap: 138px;
-}
-
-.medicine-name {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 324px;
-  height: 76px;
-  border-radius: 69px;
-  box-shadow: 5px 3px 9.4px 0px rgba(0, 0, 0, 0.25);
-  text-transform: uppercase;
-  font-weight: 700;
-  color: white;
-  font-size: 30px;
-}
-
-.medicine-img {
-  width: 400px;
-  height: 300px;
-}
-
-.medicine-text {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  max-width: 158px;
-  align-items: center;
-}
-
-.medicine-text-kids {
-  font-style: italic;
-  font-weight: 500;
-}
-
-.kid-img {
-  width: 74px;
-  height: 67px;
-  position: absolute;
-  left: 190px;
-  top: -8px;
-}
-
-@media screen and (max-width: 1200px) {
-  body {
-    position: relative;
-  }
-
-  .medicine-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .blue-gradient-triangle {
-    top: 33%;
-  }
-}
