@@ -27,6 +27,7 @@ body {
   color: #000;
   font-size: 35px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .ergoferon-title {
@@ -151,6 +152,21 @@ body {
   height: 60vh;
 }
 
+.ocean {
+  background: linear-gradient(179deg, #008083 -36.02%, #3fbec1 94.37%);
+}
+
+.grey {
+  background: linear-gradient(180deg, #bbb 0%, rgba(187, 187, 187, 0) 159.62%);
+}
+
+.blue {
+  background: linear-gradient(
+    180deg,
+    rgb(16, 145, 218),
+    rgb(125, 197, 237) 100%
+  );
+}
 @media screen and (max-width: 1300px) {
   .dynamics-graph {
     width: 66%;

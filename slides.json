@@ -39,6 +39,14 @@
       "preview": "04-preview-ergoferon-dynamics-3.png",
       "position": 4,
       "ishidden": 0
+    },
+    {
+      "mapname": "ergoferon",
+      "name": "ergoferon-duration",
+      "filename": "05-slide-ergoferon-duration.html",
+      "preview": "05-preview-ergoferon-duration.png",
+      "position": 5,
+      "ishidden": 0
     }
   ]
 }
