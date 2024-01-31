@@ -23,6 +23,22 @@
       "preview": "02-preview-ergoferon-dynamics.png",
       "position": 2,
       "ishidden": 0
+    },
+    {
+      "mapname": "ergoferon",
+      "name": "ergoferon-dynamics-2",
+      "filename": "03-slide-ergoferon-dynamics-2.html",
+      "preview": "03-preview-ergoferon-dynamics-2.png",
+      "position": 3,
+      "ishidden": 0
+    },
+    {
+      "mapname": "ergoferon",
+      "name": "ergoferon-dynamics-3",
+      "filename": "04-slide-ergoferon-dynamics-3.html",
+      "preview": "04-preview-ergoferon-dynamics-3.png",
+      "position": 4,
+      "ishidden": 0
     }
   ]
 }

@@ -147,17 +147,19 @@ body {
 }
 
 .dynamics-graph {
-  width: 70%;
+  width: 65%;
+  height: 60vh;
 }
 
 @media screen and (max-width: 1300px) {
   .dynamics-graph {
     width: 66%;
+    height: 50vh;
   }
 }
 
 @media screen and (max-width: 1300px) {
   .mechanisms-info {
-    grid-template-columns: 4% 75%;
+    grid-template-columns: 4% 75% !important;
   }
 }
