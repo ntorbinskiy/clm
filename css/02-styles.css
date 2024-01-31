@@ -1,0 +1,163 @@
+@import "../styles.css";
+
+body {
+  padding: 46px;
+  font-family: Montserrat;
+}
+
+.content {
+  padding: 46px;
+}
+
+.small-ocean-triangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ergoferon-header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 22px;
+  position: relative;
+  left: 21px;
+}
+
+.ergoferon-description {
+  color: #000;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.ergoferon-title {
+  color: #008083;
+  font-size: 57px;
+  font-weight: 700;
+}
+
+.blue-text {
+  color: #008083;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.bell-description {
+  font-size: 27px;
+  font-weight: 700;
+}
+.bell-description span {
+  font-size: 27px;
+}
+
+.divider {
+  position: relative;
+  width: 65%;
+  margin-top: 29px;
+}
+
+.divider-line {
+  border-top: 4px solid #008083;
+  border-radius: 5px;
+}
+
+.divider-circle {
+  background-color: #008083;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  right: -8px;
+  top: -8px;
+}
+
+.dynamics {
+  display: flex;
+  margin-top: 44px;
+}
+
+.dynamics-header {
+  color: #008083;
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 66px;
+}
+
+.bell-info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.colors {
+  display: flex;
+  gap: 31px;
+  margin-top: 37px;
+  margin-left: 39px;
+}
+
+.color {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.color-block {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+}
+
+.color-name {
+  color: #000;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.mechanisms-info {
+  display: grid;
+  position: absolute;
+  bottom: 33px;
+  align-items: center;
+  grid-template-columns: 3% 98%;
+}
+
+.footer-line {
+  position: absolute;
+  bottom: 0;
+  height: 21px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    #008083 -23.72%,
+    rgba(9, 225, 186, 0) 145.24%
+  );
+  z-index: -2;
+}
+
+.big-ocean-triangle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.home-icon {
+  position: absolute;
+  bottom: 56px;
+  right: 39px;
+}
+
+.dynamics-graph {
+  width: 70%;
+}
+
+@media screen and (max-width: 1300px) {
+  .dynamics-graph {
+    width: 66%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .mechanisms-info {
+    grid-template-columns: 4% 75%;
+  }
+}

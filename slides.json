@@ -7,6 +7,22 @@
       "preview": "00-preview-medicine-list.png",
       "position": 0,
       "ishidden": 0
+    },
+    {
+      "mapname": "ergoferon",
+      "name": "ergoferon",
+      "filename": "01-slide-ergoferon.html",
+      "preview": "01-preview-ergoferon.png",
+      "position": 1,
+      "ishidden": 0
+    },
+    {
+      "mapname": "ergoferon",
+      "name": "ergoferon-dynamics",
+      "filename": "02-slide-ergoferon-dynamics.html",
+      "preview": "02-preview-ergoferon-dynamics.png",
+      "position": 2,
+      "ishidden": 0
     }
   ]
 }
