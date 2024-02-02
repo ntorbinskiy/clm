@@ -47,6 +47,30 @@
       "preview": "05-preview-ergoferon-duration.png",
       "position": 5,
       "ishidden": 0
+    },
+    {
+      "mapname": "ergoferon",
+      "name": "ergoferon-diagram",
+      "filename": "06-slide-ergoferon-diagrams.html",
+      "preview": "06-preview-ergoferon-diagrams.png",
+      "position": 6,
+      "ishidden": 0
+    },
+    {
+      "mapname": "ergoferon",
+      "name": "ergoferon-diagram-2",
+      "filename": "07-ergoferon-diagrams-2.html",
+      "preview": "07-preview-ergoferon-diagrams-2.png",
+      "position": 7,
+      "ishidden": 0
+    },
+    {
+      "mapname": "ergoferon",
+      "name": "ergoferon-course",
+      "filename": "08-slide-ergoferon-course.html",
+      "preview": "08-preview-ergoferon-course.png",
+      "position": 8,
+      "ishidden": 0
     }
   ]
 }

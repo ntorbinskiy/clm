@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <style
+      data-href="/styles.1dd01bddc5a3df1dd22a.css"
+      data-identity="gatsby-global-css"
+    >
+      @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap);
+      a,
+      abbr,
+      acronym,
+      address,
+      applet,
+      article,
+      aside,
+      audio,
+      b,
+      big,
+      blockquote,
+      body,
+      canvas,
+      caption,
+      center,
+      cite,
+      code,
+      dd,
+      del,
+      details,
+      dfn,
+      div,
+      dl,
+      dt,
+      em,
+      embed,
+      fieldset,
+      figcaption,
+      figure,
+      footer,
+      form,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      header,
+      hgroup,
+      html,
+      i,
+      iframe,
+      img,
+      ins,
+      kbd,
+      label,
+      legend,
+      li,
+      mark,
+      menu,
+      nav,
+      object,
+      ol,
+      output,
+      p,
+      pre,
+      q,
+      ruby,
+      s,
+      samp,
+      section,
+      small,
+      span,
+      strike,
+      strong,
+      sub,
+      summary,
+      sup,
+      table,
+      tbody,
+      td,
+      tfoot,
+      th,
+      thead,
+      time,
+      tr,
+      tt,
+      u,
+      ul,
+      var,
+      video {
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        margin: 0;
+        padding: 0;
+        vertical-align: baseline;
+      }
+      article,
+      aside,
+      details,
+      figcaption,
+      figure,
+      footer,
+      header,
+      hgroup,
+      menu,
+      nav,
+      section {
+        display: block;
+      }
+      body {
+        line-height: 1;
+      }
+      blockquote,
+      q {
+        quotes: none;
+      }
+      blockquote:after,
+      blockquote:before,
+      q:after,
+      q:before {
+        content: "";
+        content: none;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      body {
+        font-family: Montserrat;
+      }
+      .content {
+        padding: 46px;
+      }
+      .small-ocean-triangle {
+        left: 0;
+        position: absolute;
+        top: 0;
+      }
+      .header {
+        align-items: center;
+        display: grid;
+        gap: 22px;
+        grid-template-areas: "title description" "divider divider";
+        grid-template-columns: auto auto;
+        justify-content: start;
+      }
+      .header-description {
+        color: #000;
+        font-size: 35px;
+        font-weight: 700;
+        grid-area: description;
+        text-transform: uppercase;
+      }
+      .header-title {
+        color: #008083;
+        font-size: 57px;
+        font-weight: 700;
+        grid-area: title;
+      }
+      .header-divider {
+        grid-area: divider;
+        position: relative;
+      }
+      .header-divider-line {
+        border-radius: 5px;
+        border-top: 4px solid #008083;
+      }
+      .header-divider-circle {
+        background-color: #008083;
+        border-radius: 50%;
+        height: 20px;
+        position: absolute;
+        right: -8px;
+        top: 0;
+        width: 20px;
+      }
+      .blue-text {
+        color: #008083;
+        font-size: 35px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      .footer-info {
+        align-items: center;
+        bottom: 33px;
+        display: grid;
+        grid-template-columns: 3% 80%;
+        position: absolute;
+      }
+      .footer-line {
+        background: linear-gradient(
+          90deg,
+          #008083 -23.72%,
+          rgba(9, 225, 186, 0) 145.24%
+        );
+        bottom: 0;
+        height: 21px;
+        position: absolute;
+        width: 100%;
+        z-index: -2;
+      }
+      .big-ocean-triangle {
+        bottom: 0;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+      }
+      .footer-home-icon {
+        bottom: 56px;
+        position: absolute;
+        right: 39px;
+      }
+      .subtitle {
+        color: #008083;
+        font-size: 30px;
+        font-weight: 500;
+        padding-top: 45px;
+      }
+      .ergoferon-diagram-07 {
+        height: 500px;
+        width: 500px;
+      }
+      .blue-rounded-box {
+        background: #ceedff;
+        bottom: 27px;
+        padding: 35px 109px 52px 90px;
+      }
+      .blue-rounded-box-first {
+        border-radius: 0 376px 376px 0;
+        position: relative;
+        right: 46px;
+      }
+      .blue-rounded-box-second {
+        border-radius: 376px 0 0 376px;
+        left: 46px;
+        position: relative;
+      }
+      .blue-rounded-box-text-1,
+      .blue-rounded-box-text-1 > * {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 140%;
+        text-transform: none;
+      }
+      .blue-rounded-box-text-2,
+      .blue-rounded-box-text-2 > * {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 140%;
+      }
+      .light-blue-text {
+        -webkit-text-fill-color: transparent;
+        background: -webkit-linear-gradient(#1091da, #7dc5ed);
+        -webkit-background-clip: text;
+        font-weight: 700;
+      }
+      .diagram-box-07 {
+        align-items: center;
+        display: grid;
+        grid-template-columns: auto auto 0 auto;
+      }
+      .colors {
+        display: flex;
+        gap: 31px;
+        margin-left: 39px;
+        margin-top: 37px;
+      }
+      .color {
+        align-items: center;
+        display: flex;
+        gap: 17px;
+      }
+      .color-block {
+        border-radius: 12px;
+        height: 46px;
+        width: 46px;
+      }
+      .color-name {
+        color: #000;
+        font-size: 30px;
+        font-weight: 500;
+      }
+      .colors-07 {
+        justify-content: center;
+      }
+      .arrow {
+        bottom: 83px;
+        height: 5px;
+        position: relative;
+        right: 10px;
+        width: 79px;
+        z-index: 1;
+      }
+      .arrow,
+      .circle {
+        background: #0a7ab9;
+      }
+      .circle {
+        border-radius: 50%;
+        height: 20px;
+        left: -13px;
+        position: absolute;
+        top: -8px;
+        width: 20px;
+      }
+      .arrow-lines {
+        border: solid #0a7ab9;
+        border-radius: 3px;
+        border-width: 0 4px 4px 0;
+        display: inline-block;
+        padding: 7px;
+        position: absolute;
+        right: 0;
+        top: -6px;
+        transform: rotate(-45deg);
+      }
+      @media screen and (max-width: 1300px) {
+        .blue-rounded-box-text-1,
+        .blue-rounded-box-text-2 {
+          font-size: 20px;
+        }
+        .ergoferon-diagram-07 {
+          height: 250px;
+          width: 250px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="___gatsby">
+      <div style="outline: none" tabindex="-1" id="gatsby-focus-wrapper">
+        <div class="content">
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iOTIiIHZpZXdCb3g9IjAgMCA0OCA5MiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgOTEuNUw0Ny41IDBIMFY5MS41WiIgZmlsbD0iIzAwODA4MyIvPgo8L3N2Zz4K"
+            class="small-ocean-triangle"
+          />
+          <div class="header">
+            <h1 class="header-title">ЕРГОФЕРОН</h1>
+            <span class="header-description" style="text-transform: none"
+              >У <span class="blue-text">85%</span> пацієнтів зменшує
+              ймовірність розвитку бактеріальних ускладнень, що вимагають
+              призначення антибіотикотерапії на тлі ГРВІ, згідно результатам
+              дослідження «Ермітаж»: 8 411 пацієнтів</span
+            >
+          </div>
+          <h2 class="subtitle">
+            ЧАСТКА ПАЦІЄНТІВ, ЩО ОТРИМУВАЛИ ТА НЕ ОТРИМУВАЛИ АНТИБАКТЕРІАЛЬНІ
+            ПРЕПАРАТИ
+          </h2>
+          <div class="diagram-box-07">
+            <div class="blue-rounded-box blue-rounded-box-first">
+              <span class="blue-rounded-box-text-1"
+                >Всього <span class="blue-text">3,3%</span> пацієнтів отримували
+                АБП на другий і наступні дні лікування
+                <span class="blue-text">Ергофероном</span></span
+              >
+            </div>
+            <img
+              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2aWV3Qm94PSIyNDUuNzUgMjQ1Ljc1IDU2Ni4wMSA1NjYuMDIiPgoJPGRlc2M+CgkJCUNyZWF0ZWQgd2l0aCBQaXhzby4KCTwvZGVzYz4KCTxkZWZzPgoJCTxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnRfbGluZWFyXzY3Xzc1XzAiIHgxPSIxMDE3LjEzOTY0OCIgeTE9IjYwOC43MTQ1MzkiIHgyPSIyNzUuMzk2MTE4IiB5Mj0iNTE0LjU0NzE4MCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgoJCQk8c3RvcCBzdG9wLWNvbG9yPSIjMDA4MDgzIi8+CgkJCTxzdG9wIG9mZnNldD0iMS4wMDAwMDAiIHN0b3AtY29sb3I9IiMzRkJFQzEiLz4KCQk8L2xpbmVhckdyYWRpZW50PgoJCTxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnRfbGluZWFyXzY3Xzc3XzAiIHgxPSI4MTcuODE0NzU4IiB5MT0iNDM3LjgxNzM4MyIgeDI9IjUzNS45MTgyNzQiIHkyPSI0MTkuMzYxMzI4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CgkJCTxzdG9wIHN0b3AtY29sb3I9IiMxMDkxREEiLz4KCQkJPHN0b3Agb2Zmc2V0PSIxLjAwMDAwMCIgc3RvcC1jb2xvcj0iIzdEQzVFRCIvPgoJCTwvbGluZWFyR3JhZGllbnQ+Cgk8L2RlZnM+Cgk8cGF0aCBpZD0iU2xpY2UgLSA4NSAoODUuOSUpIiBkPSJNNTI4Ljc1NiA1MjguNzU2TDgxMC42NTIgNTQ3LjIxMkM4MDAuNDU5IDcwMi44OTkgNjY1Ljk4NyA4MjAuODQ2IDUxMC4zIDgxMC42NTJDMzU0LjYxMyA4MDAuNDU5IDIzNi42NjcgNjY1Ljk4NyAyNDYuODU5IDUxMC4zQzI1Ny4wNTIgMzU0LjYxMiAzOTEuNTI1IDIzNi42NjYgNTQ3LjIxMiAyNDYuODU5QzYxMS45NSAyNTEuMDk4IDY3My4yNTcgMjc3LjQ5IDcyMC44MzEgMzIxLjYwMUw1MjguNzU2IDUyOC43NTZaIiBmaWxsPSJ1cmwoI3BhaW50X2xpbmVhcl82N183NV8wKSIgZmlsbC1vcGFjaXR5PSIxLjAwMDAwMCIgZmlsbC1ydWxlPSJub256ZXJvIi8+Cgk8cGF0aCBpZD0iU2xpY2UgLSA4NSAoODUuOSUpIiBkPSJNODEwLjY1MiA1NDcuMjEyQzgwMC40NTkgNzAyLjg5OSA2NjUuOTg3IDgyMC44NDYgNTEwLjMgODEwLjY1MkMzNTQuNjEzIDgwMC40NTkgMjM2LjY2NyA2NjUuOTg3IDI0Ni44NTkgNTEwLjNDMjU3LjA1MiAzNTQuNjEyIDM5MS41MjUgMjM2LjY2NiA1NDcuMjEyIDI0Ni44NTlDNjExLjk1IDI1MS4wOTggNjczLjI1NyAyNzcuNDkgNzIwLjgzMSAzMjEuNjAxTDUyOC43NTYgNTI4Ljc1Nkw4MTAuNjUyIDU0Ny4yMTJaIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS1vcGFjaXR5PSIxLjAwMDAwMCIgc3Ryb2tlLXdpZHRoPSIxLjAwMDAwMCIvPgoJPHBhdGggaWQ9Ijg1LDI1JSIgZD0iTTMzNy40NzQgNjEyLjA5NlEzMzkuMjk0IDYxMy4wMDIgMzQwLjI1MSA2MTQuNDcyUTM0MS4yMTcgNjE1Ljk0MiAzNDEuMjE3IDYxNy44NzNRMzQxLjIxNyA2MjAuMTQ2IDMzOS45MTggNjIxLjg0NlEzMzguNjI4IDYyMy41MzggMzM2LjI3OCA2MjQuNDY5UTMzMy45MzYgNjI1LjM5MiAzMzAuODYgNjI1LjM5MlEzMjcuNzc1IDYyNS4zOTIgMzI1LjQ0MyA2MjQuNDY5UTMyMy4xMTggNjIzLjUzOCAzMjEuODM3IDYyMS44NDZRMzIwLjU2NCA2MjAuMTQ2IDMyMC41NjQgNjE3Ljg3M1EzMjAuNTY0IDYxNS45NDIgMzIxLjUyOSA2MTQuNDcyUTMyMi40OTUgNjEzLjAwMiAzMjQuMjgxIDYxMi4wOTZRMzIyLjkxMyA2MTEuMjUgMzIyLjE3OSA2MDkuOTc3UTMyMS40NDQgNjA4LjY5NiAzMjEuNDQ0IDYwNy4wNTVRMzIxLjQ0NCA2MDQuOTE5IDMyMi42MzEgNjAzLjM0NlEzMjMuODE5IDYwMS43NjYgMzI1Ljk1NSA2MDAuOTExUTMyOC4wOTIgNjAwLjA1NyAzMzAuODYgNjAwLjA1N1EzMzMuNjU0IDYwMC4wNTcgMzM1LjgwOCA2MDAuOTExUTMzNy45NjEgNjAxLjc2NiAzMzkuMTQ5IDYwMy4zNDZRMzQwLjM0NSA2MDQuOTE5IDM0MC4zNDUgNjA3LjA1NVEzNDAuMzQ1IDYwOC42OTYgMzM5LjYxIDYwOS45NzdRMzM4Ljg3NSA2MTEuMjUgMzM3LjQ3NCA2MTIuMDk2Wk0zMzAuODYgNjA0LjIxOFEzMjkuMTQzIDYwNC4yMTggMzI4LjEwOSA2MDUuMDQ3UTMyNy4wNzUgNjA1Ljg2NyAzMjcuMDc1IDYwNy4zMDNRMzI3LjA3NSA2MDguNjk2IDMyOC4wOTIgNjA5LjUwN1EzMjkuMTA4IDYxMC4zMTEgMzMwLjg2IDYxMC4zMTFRMzMyLjYwMyA2MTAuMzExIDMzMy42NTQgNjA5LjUwN1EzMzQuNzA1IDYwOC42OTYgMzM0LjcwNSA2MDcuMzAzUTMzNC43MDUgNjA1Ljg2NyAzMzMuNjU0IDYwNS4wNDdRMzMyLjYwMyA2MDQuMjE4IDMzMC44NiA2MDQuMjE4Wk0zMzAuODYgNjIxLjIzMVEzMzIuOTg4IDYyMS4yMzEgMzM0LjIyNyA2MjAuMjY1UTMzNS40NzQgNjE5LjMgMzM1LjQ3NCA2MTcuNjkzUTMzNS40NzQgNjE2LjA4NyAzMzQuMjI3IDYxNS4xMzhRMzMyLjk4OCA2MTQuMTkgMzMwLjg2IDYxNC4xOVEzMjguNzU4IDYxNC4xOSAzMjcuNTI4IDYxNS4xMzhRMzI2LjMwNiA2MTYuMDg3IDMyNi4zMDYgNjE3LjY5M1EzMjYuMzA2IDYxOS4zNDMgMzI3LjUyOCA2MjAuMjkxUTMyOC43NTggNjIxLjIzMSAzMzAuODYgNjIxLjIzMVpNMzUyLjIwOCA2MDkuNjc4UTM1Ny4zODcgNjA5LjY3OCAzNTkuODU2IDYxMS43NDZRMzYyLjMyNiA2MTMuODA1IDM2Mi4zMjYgNjE3LjI3NVEzNjIuMzI2IDYxOS41MTMgMzYxLjE5OCA2MjEuMzUxUTM2MC4wNzggNjIzLjE4OCAzNTcuNzg4IDYyNC4yOVEzNTUuNDk4IDYyNS4zOTIgMzUyLjE0IDYyNS4zOTJRMzQ5LjU0MiA2MjUuMzkyIDM0Ny4wMzkgNjI0LjcwOVEzNDQuNTQ0IDYyNC4wMjUgMzQyLjc5MiA2MjIuNzY5TDM0NS4wMzEgNjE4LjQyOFEzNDYuNDMyIDYxOS40NzkgMzQ4LjI1MiA2MjAuMDZRMzUwLjA3MiA2MjAuNjMzIDM1MS45OTUgNjIwLjYzM1EzNTQuMTMxIDYyMC42MzMgMzU1LjM1MyA2MTkuNzk1UTM1Ni41ODMgNjE4Ljk0OSAzNTYuNTgzIDYxNy40NDZRMzU2LjU4MyA2MTUuODczIDM1NS4zMDIgNjE1LjA3UTM1NC4wMjkgNjE0LjI2NyAzNTAuODc1IDYxNC4yNjdMMzQ0LjYxMiA2MTQuMjY3TDM0NS44NjggNjAwLjQ3NUwzNjAuODEzIDYwMC40NzVMMzYwLjgxMyA2MDUuMDIxTDM1MC41OTMgNjA1LjAyMUwzNTAuMjA5IDYwOS42NzhMMzUyLjIwOCA2MDkuNjc4Wk0zNjcuODg5IDYxOC40NjJRMzY5LjM1OSA2MTguNDYyIDM3MC4yOTkgNjE5LjM5NFEzNzEuMjQ4IDYyMC4zMTcgMzcxLjI0OCA2MjEuODIxUTM3MS4yNDggNjIyLjUyMSAzNzEuMDY4IDYyMy4yMjJRMzcwLjg5NyA2MjMuOTIzIDM3MC4yOTkgNjI1LjMyNEwzNjguMzA4IDYzMC4zNjVMMzY0LjgzOSA2MzAuMzY1TDM2Ni4zODYgNjI0LjgwM1EzNjUuNTA1IDYyNC40NTIgMzY0Ljk5MyA2MjMuNjY2UTM2NC40ODkgNjIyLjg3MiAzNjQuNDg5IDYyMS44MjFRMzY0LjQ4OSA2MjAuMzE3IDM2NS40NTQgNjE5LjM5NFEzNjYuNDIgNjE4LjQ2MiAzNjcuODg5IDYxOC40NjJaTTM5Mi40NTcgNjIwLjM1MUwzOTIuNDU3IDYyNC45NzRMMzczLjk0IDYyNC45NzRMMzczLjk0IDYyMS4yOTlMMzgzLjM5MSA2MTIuMzdRMzg0Ljg5NSA2MTAuOTQzIDM4NS40MTYgNjA5LjkwOVEzODUuOTQ2IDYwOC44NzUgMzg1Ljk0NiA2MDcuODU4UTM4NS45NDYgNjA2LjM4OCAzODQuOTQ2IDYwNS42MDJRMzgzLjk1NSA2MDQuODE2IDM4Mi4wMjQgNjA0LjgxNlEzODAuNDE3IDYwNC44MTYgMzc5LjExOCA2MDUuNDMxUTM3Ny44MjggNjA2LjAzOCAzNzYuOTQ4IDYwNy4yNkwzNzIuODIxIDYwNC42MDNRMzc0LjI1NiA2MDIuNDY2IDM3Ni43NzcgNjAxLjI2MVEzNzkuMjk4IDYwMC4wNTcgMzgyLjU1MyA2MDAuMDU3UTM4NS4yNzkgNjAwLjA1NyAzODcuMzMgNjAwLjk1NFEzODkuMzgxIDYwMS44NDMgMzkwLjUxNyA2MDMuNDY2UTM5MS42NTQgNjA1LjA5IDM5MS42NTQgNjA3LjMwM1EzOTEuNjU0IDYwOS4yOTQgMzkwLjgwOCA2MTEuMDQ1UTM4OS45NyA2MTIuNzk3IDM4Ny41NjEgNjE1LjAzNkwzODEuOTIxIDYyMC4zNTFMMzkyLjQ1NyA2MjAuMzUxWk00MDMuMjAzIDYwOS42NzhRNDA4LjM4MiA2MDkuNjc4IDQxMC44NTEgNjExLjc0NlE0MTMuMzIxIDYxMy44MDUgNDEzLjMyMSA2MTcuMjc1UTQxMy4zMjEgNjE5LjUxMyA0MTIuMTkzIDYyMS4zNTFRNDExLjA3MyA2MjMuMTg4IDQwOC43ODMgNjI0LjI5UTQwNi40OTMgNjI1LjM5MiA0MDMuMTM1IDYyNS4zOTJRNDAwLjUzNyA2MjUuMzkyIDM5OC4wMzQgNjI0LjcwOVEzOTUuNTM5IDYyNC4wMjUgMzkzLjc4NyA2MjIuNzY5TDM5Ni4wMjYgNjE4LjQyOFEzOTcuNDI3IDYxOS40NzkgMzk5LjI0NyA2MjAuMDZRNDAxLjA2NyA2MjAuNjMzIDQwMi45OSA2MjAuNjMzUTQwNS4xMjYgNjIwLjYzMyA0MDYuMzQ4IDYxOS43OTVRNDA3LjU3OCA2MTguOTQ5IDQwNy41NzggNjE3LjQ0NlE0MDcuNTc4IDYxNS44NzMgNDA2LjI5NyA2MTUuMDdRNDA1LjAyNCA2MTQuMjY3IDQwMS44NyA2MTQuMjY3TDM5NS42MDcgNjE0LjI2N0wzOTYuODYzIDYwMC40NzVMNDExLjgwOCA2MDAuNDc1TDQxMS44MDggNjA1LjAyMUw0MDEuNTg4IDYwNS4wMjFMNDAxLjIwNCA2MDkuNjc4TDQwMy4yMDMgNjA5LjY3OFpNNDIwLjk0NCA2MTMuNzAzUTQxOC4yNTIgNjEzLjcwMyA0MTYuNTUyIDYxMS44NjZRNDE0Ljg2IDYxMC4wMjkgNDE0Ljg2IDYwNi45NTJRNDE0Ljg2IDYwMy44NjggNDE2LjU1MiA2MDIuMDMxUTQxOC4yNTIgNjAwLjE5MyA0MjAuOTQ0IDYwMC4xOTNRNDIzLjY0NCA2MDAuMTkzIDQyNS4zMTkgNjAyLjAzMVE0MjcuMDAyIDYwMy44NjggNDI3LjAwMiA2MDYuOTUyUTQyNy4wMDIgNjEwLjAyOSA0MjUuMzE5IDYxMS44NjZRNDIzLjY0NCA2MTMuNzAzIDQyMC45NDQgNjEzLjcwM1pNNDM1LjUzOSA2MDAuNDc1TDQzOS43MDkgNjAwLjQ3NUw0MjIuOTc4IDYyNC45NzRMNDE4LjgwOCA2MjQuOTc0TDQzNS41MzkgNjAwLjQ3NVpNNDIwLjk0NCA2MTAuODMyUTQyMi4xNCA2MTAuODMyIDQyMi44MTUgNjA5Ljg1OFE0MjMuNDk5IDYwOC44NzUgNDIzLjQ5OSA2MDYuOTUyUTQyMy40OTkgNjA1LjAyMSA0MjIuODE1IDYwNC4wNDdRNDIyLjE0IDYwMy4wNjQgNDIwLjk0NCA2MDMuMDY0UTQxOS43OTEgNjAzLjA2NCA0MTkuMDkgNjA0LjA2NFE0MTguMzg5IDYwNS4wNTUgNDE4LjM4OSA2MDYuOTUyUTQxOC4zODkgNjA4Ljg0MSA0MTkuMDkgNjA5Ljg0MVE0MTkuNzkxIDYxMC44MzIgNDIwLjk0NCA2MTAuODMyWk00MzcuNTczIDYyNS4yNTZRNDM1LjgyMSA2MjUuMjU2IDQzNC40MzcgNjI0LjQzNVE0MzMuMDYxIDYyMy42MDYgNDMyLjI4MyA2MjIuMDY4UTQzMS41MTQgNjIwLjUzIDQzMS41MTQgNjE4LjQ5N1E0MzEuNTE0IDYxNi40NzEgNDMyLjI4MyA2MTQuOTMzUTQzMy4wNjEgNjEzLjM4NyA0MzQuNDM3IDYxMi41NjZRNDM1LjgyMSA2MTEuNzQ2IDQzNy41NzMgNjExLjc0NlE0NDAuMjY0IDYxMS43NDYgNDQxLjk2NSA2MTMuNTgzUTQ0My42NjUgNjE1LjQyIDQ0My42NjUgNjE4LjQ5N1E0NDMuNjY1IDYyMS41ODEgNDQxLjk2NSA2MjMuNDE4UTQ0MC4yNjQgNjI1LjI1NiA0MzcuNTczIDYyNS4yNTZaTTQzNy41NzMgNjIyLjM4NVE0MzguNzYgNjIyLjM4NSA0MzkuNDQ0IDYyMS4zODVRNDQwLjEyNyA2MjAuMzg1IDQ0MC4xMjcgNjE4LjQ5N1E0NDAuMTI3IDYxNi42MDggNDM5LjQ0NCA2MTUuNjE3UTQzOC43NiA2MTQuNjE3IDQzNy41NzMgNjE0LjYxN1E0MzYuNDE5IDYxNC42MTcgNDM1LjcxOCA2MTUuNlE0MzUuMDE4IDYxNi41NzQgNDM1LjAxOCA2MTguNDk3UTQzNS4wMTggNjIwLjQyOCA0MzUuNzE4IDYyMS40MVE0MzYuNDE5IDYyMi4zODUgNDM3LjU3MyA2MjIuMzg1WiIgZmlsbD0iI0ZGRkZGRiIgZmlsbC1vcGFjaXR5PSIxLjAwMDAwMCIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cgk8cGF0aCBpZD0iU2xpY2UgLSAxNCAoMTQuMSUpIiBkPSJNNTI4Ljc1NiA1MjguNzU4TDcyMC44MzEgMzIxLjYwM0M3ODMuMjE1IDM3OS40NDUgODE2LjIxIDQ2Mi4zMjEgODEwLjY1MiA1NDcuMjE0TDUyOC43NTYgNTI4Ljc1OFoiIGZpbGw9InVybCgjcGFpbnRfbGluZWFyXzY3Xzc3XzApIiBmaWxsLW9wYWNpdHk9IjEuMDAwMDAwIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz4KCTxwYXRoIGlkPSJTbGljZSAtIDE0ICgxNC4xJSkiIGQ9Ik03MjAuODMxIDMyMS42MDNDNzgzLjIxNSAzNzkuNDQ1IDgxNi4yMSA0NjIuMzIxIDgxMC42NTIgNTQ3LjIxNEw1MjguNzU2IDUyOC43NThMNzIwLjgzMSAzMjEuNjAzWiIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utb3BhY2l0eT0iMS4wMDAwMDAiIHN0cm9rZS13aWR0aD0iMS4wMDAwMDAiLz4KCTxwYXRoIGlkPSIxNCw4JSIgZD0iTTY4OC4wNDIgNDQ4LjQ3NUw2ODguMDQyIDQ3Mi45NzRMNjgyLjM2OCA0NzIuOTc0TDY4Mi4zNjggNDUzLjAyMUw2NzcuNDcyIDQ1My4wMjFMNjc3LjQ3MiA0NDguNDc1TDY4OC4wNDIgNDQ4LjQ3NVpNNzE0Ljc0MiA0NjcuODNMNzEwLjc1MSA0NjcuODNMNzEwLjc1MSA0NzIuOTc0TDcwNS4yMjMgNDcyLjk3NEw3MDUuMjIzIDQ2Ny44M0w2OTIuMDI5IDQ2Ny44M0w2OTIuMDI5IDQ2NC4wMUw3MDMuNTgyIDQ0OC40NzVMNzA5LjUyOSA0NDguNDc1TDY5OC44MjMgNDYzLjIwN0w3MDUuNDAyIDQ2My4yMDdMNzA1LjQwMiA0NTguNjI3TDcxMC43NTEgNDU4LjYyN0w3MTAuNzUxIDQ2My4yMDdMNzE0Ljc0MiA0NjMuMjA3TDcxNC43NDIgNDY3LjgzWk03MjAuMzgyIDQ2Ni40NjJRNzIxLjg1MiA0NjYuNDYyIDcyMi43OTIgNDY3LjM5NFE3MjMuNzQgNDY4LjMxNyA3MjMuNzQgNDY5LjgyMVE3MjMuNzQgNDcwLjUyMSA3MjMuNTYxIDQ3MS4yMjJRNzIzLjM5IDQ3MS45MjMgNzIyLjc5MiA0NzMuMzI0TDcyMC44MDEgNDc4LjM2NUw3MTcuMzMxIDQ3OC4zNjVMNzE4Ljg3OCA0NzIuODAzUTcxNy45OTggNDcyLjQ1MiA3MTcuNDg1IDQ3MS42NjZRNzE2Ljk4MSA0NzAuODcyIDcxNi45ODEgNDY5LjgyMVE3MTYuOTgxIDQ2OC4zMTcgNzE3Ljk0NyA0NjcuMzk0UTcxOC45MTIgNDY2LjQ2MiA3MjAuMzgyIDQ2Ni40NjJaTTc0My40MTEgNDYwLjA5NlE3NDUuMjMyIDQ2MS4wMDIgNzQ2LjE4OSA0NjIuNDcyUTc0Ny4xNTQgNDYzLjk0MiA3NDcuMTU0IDQ2NS44NzNRNzQ3LjE1NCA0NjguMTQ2IDc0NS44NTUgNDY5Ljg0NlE3NDQuNTY1IDQ3MS41MzggNzQyLjIxNSA0NzIuNDY5UTczOS44NzQgNDczLjM5MiA3MzYuNzk4IDQ3My4zOTJRNzMzLjcxMyA0NzMuMzkyIDczMS4zOCA0NzIuNDY5UTcyOS4wNTYgNDcxLjUzOCA3MjcuNzc0IDQ2OS44NDZRNzI2LjUwMSA0NjguMTQ2IDcyNi41MDEgNDY1Ljg3M1E3MjYuNTAxIDQ2My45NDIgNzI3LjQ2NyA0NjIuNDcyUTcyOC40MzIgNDYxLjAwMiA3MzAuMjE4IDQ2MC4wOTZRNzI4Ljg1MSA0NTkuMjUgNzI4LjExNiA0NTcuOTc3UTcyNy4zODEgNDU2LjY5NiA3MjcuMzgxIDQ1NS4wNTVRNzI3LjM4MSA0NTIuOTE5IDcyOC41NjkgNDUxLjM0NlE3MjkuNzU3IDQ0OS43NjYgNzMxLjg5MyA0NDguOTExUTczNC4wMjkgNDQ4LjA1NyA3MzYuNzk4IDQ0OC4wNTdRNzM5LjU5MiA0NDguMDU3IDc0MS43NDUgNDQ4LjkxMVE3NDMuODk4IDQ0OS43NjYgNzQ1LjA4NiA0NTEuMzQ2UTc0Ni4yODMgNDUyLjkxOSA3NDYuMjgzIDQ1NS4wNTVRNzQ2LjI4MyA0NTYuNjk2IDc0NS41NDggNDU3Ljk3N1E3NDQuODEzIDQ1OS4yNSA3NDMuNDExIDQ2MC4wOTZaTTczNi43OTggNDUyLjIxOFE3MzUuMDggNDUyLjIxOCA3MzQuMDQ2IDQ1My4wNDdRNzMzLjAxMiA0NTMuODY3IDczMy4wMTIgNDU1LjMwM1E3MzMuMDEyIDQ1Ni42OTYgNzM0LjAyOSA0NTcuNTA3UTczNS4wNDYgNDU4LjMxMSA3MzYuNzk4IDQ1OC4zMTFRNzM4LjU0MSA0NTguMzExIDczOS41OTIgNDU3LjUwN1E3NDAuNjQzIDQ1Ni42OTYgNzQwLjY0MyA0NTUuMzAzUTc0MC42NDMgNDUzLjg2NyA3MzkuNTkyIDQ1My4wNDdRNzM4LjU0MSA0NTIuMjE4IDczNi43OTggNDUyLjIxOFpNNzM2Ljc5OCA0NjkuMjMxUTczOC45MjUgNDY5LjIzMSA3NDAuMTY0IDQ2OC4yNjVRNzQxLjQxMiA0NjcuMyA3NDEuNDEyIDQ2NS42OTNRNzQxLjQxMiA0NjQuMDg3IDc0MC4xNjQgNDYzLjEzOFE3MzguOTI1IDQ2Mi4xOSA3MzYuNzk4IDQ2Mi4xOVE3MzQuNjk2IDQ2Mi4xOSA3MzMuNDY1IDQ2My4xMzhRNzMyLjI0MyA0NjQuMDg3IDczMi4yNDMgNDY1LjY5M1E3MzIuMjQzIDQ2Ny4zNDMgNzMzLjQ2NSA0NjguMjkxUTczNC42OTYgNDY5LjIzMSA3MzYuNzk4IDQ2OS4yMzFaTTc1NS4wNjIgNDYxLjcwM1E3NTIuMzcgNDYxLjcwMyA3NTAuNjY5IDQ1OS44NjZRNzQ4Ljk3OCA0NTguMDI5IDc0OC45NzggNDU0Ljk1MlE3NDguOTc4IDQ1MS44NjggNzUwLjY2OSA0NTAuMDMxUTc1Mi4zNyA0NDguMTkzIDc1NS4wNjIgNDQ4LjE5M1E3NTcuNzYyIDQ0OC4xOTMgNzU5LjQzNyA0NTAuMDMxUTc2MS4xMiA0NTEuODY4IDc2MS4xMiA0NTQuOTUyUTc2MS4xMiA0NTguMDI5IDc1OS40MzcgNDU5Ljg2NlE3NTcuNzYyIDQ2MS43MDMgNzU1LjA2MiA0NjEuNzAzWk03NjkuNjU2IDQ0OC40NzVMNzczLjgyNiA0NDguNDc1TDc1Ny4wOTUgNDcyLjk3NEw3NTIuOTI1IDQ3Mi45NzRMNzY5LjY1NiA0NDguNDc1Wk03NTUuMDYyIDQ1OC44MzJRNzU2LjI1OCA0NTguODMyIDc1Ni45MzMgNDU3Ljg1OFE3NTcuNjE3IDQ1Ni44NzUgNzU3LjYxNyA0NTQuOTUyUTc1Ny42MTcgNDUzLjAyMSA3NTYuOTMzIDQ1Mi4wNDdRNzU2LjI1OCA0NTEuMDY0IDc1NS4wNjIgNDUxLjA2NFE3NTMuOTA4IDQ1MS4wNjQgNzUzLjIwNyA0NTIuMDY0UTc1Mi41MDcgNDUzLjA1NSA3NTIuNTA3IDQ1NC45NTJRNzUyLjUwNyA0NTYuODQxIDc1My4yMDcgNDU3Ljg0MVE3NTMuOTA4IDQ1OC44MzIgNzU1LjA2MiA0NTguODMyWk03NzEuNjkgNDczLjI1NlE3NjkuOTM4IDQ3My4yNTYgNzY4LjU1NCA0NzIuNDM1UTc2Ny4xNzggNDcxLjYwNiA3NjYuNDAxIDQ3MC4wNjhRNzY1LjYzMiA0NjguNTMgNzY1LjYzMiA0NjYuNDk3UTc2NS42MzIgNDY0LjQ3MSA3NjYuNDAxIDQ2Mi45MzNRNzY3LjE3OCA0NjEuMzg3IDc2OC41NTQgNDYwLjU2NlE3NjkuOTM4IDQ1OS43NDYgNzcxLjY5IDQ1OS43NDZRNzc0LjM4MiA0NTkuNzQ2IDc3Ni4wODIgNDYxLjU4M1E3NzcuNzgzIDQ2My40MiA3NzcuNzgzIDQ2Ni40OTdRNzc3Ljc4MyA0NjkuNTgxIDc3Ni4wODIgNDcxLjQxOFE3NzQuMzgyIDQ3My4yNTYgNzcxLjY5IDQ3My4yNTZaTTc3MS42OSA0NzAuMzg1UTc3Mi44NzggNDcwLjM4NSA3NzMuNTYxIDQ2OS4zODVRNzc0LjI0NSA0NjguMzg1IDc3NC4yNDUgNDY2LjQ5N1E3NzQuMjQ1IDQ2NC42MDggNzczLjU2MSA0NjMuNjE3UTc3Mi44NzggNDYyLjYxNyA3NzEuNjkgNDYyLjYxN1E3NzAuNTM2IDQ2Mi42MTcgNzY5LjgzNiA0NjMuNlE3NjkuMTM1IDQ2NC41NzQgNzY5LjEzNSA0NjYuNDk3UTc2OS4xMzUgNDY4LjQyOCA3NjkuODM2IDQ2OS40MVE3NzAuNTM2IDQ3MC4zODUgNzcxLjY5IDQ3MC4zODVaIiBmaWxsPSIjRkZGRkZGIiBmaWxsLW9wYWNpdHk9IjEuMDAwMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+"
+              class="ergoferon-diagram-07"
+            />
+            <div class="arrow">
+              <div class="circle"></div>
+              <div class="arrow-lines"></div>
+            </div>
+            <div class="blue-rounded-box blue-rounded-box-second">
+              <span class="blue-rounded-box-text-2"
+                ><span class="light-blue-text">11,5%</span> АБП на 1-й день<!-- -->
+                <br />
+                <span class="light-blue-text">3,3%</span> АБП на 2-й день і
+                пізніше</span
+              >
+            </div>
+          </div>
+          <div class="colors colors-07">
+            <div class="color">
+              <div
+                class="color-block"
+                style="
+                  background: linear-gradient(
+                    183.47deg,
+                    rgb(0, 128, 131) -32.656%,
+                    rgb(63, 190, 193) 92.306%
+                  );
+                "
+              ></div>
+              <div class="color-name">
+                Не отримували <br />
+                антибактеріальні препарати
+              </div>
+            </div>
+            <div class="color">
+              <div
+                class="color-block"
+                style="
+                  background: linear-gradient(
+                    180deg,
+                    rgb(16, 145, 218),
+                    rgb(125, 197, 237) 100%
+                  );
+                "
+              ></div>
+              <div class="color-name">
+                Отримували <br />антибактеріальні препарати
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-info">
+          <img
+            src="/static/info-icon-3b5aa41470020ac76c50bd2409c43be3.svg"
+          /><span
+            >І.А. Мітюряєва, Противірусна терапія при ГРВІ у стримуванні
+            зростання антибіотикорезистентності, ЗУ «Педіатрія» №1 (48),
+            березень 2019 р., с. 8-9; А.В. Возняк, Оптимізація лікування гострих
+            респіраторних інфекцій у дітей, ЗУ «Педіатрія», № 3 (50), 2019 р.;
+            Геппе Н.А. і співавт., Лікування ГРВІ та Грипу в
+            амбулаторно-поліклінічній практиці: результати міжнародної
+            спостережної неінтервенційної програми &quot;Ермітаж«, Терапія, №8
+            (18), 2017 р.</span
+          >
+        </div>
+        <div class="footer-line"></div>
+        <img
+          src="/static/home-icon-a286c49e83c1c00839054afc2dd87996.svg"
+          class="footer-home-icon"
+        /><img
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjU1IiBoZWlnaHQ9IjY0NiIgdmlld0JveD0iMCAwIDI1NSA2NDYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0tMzcuMDg1NCA3NDkuMThMMzM0LjA2NSAtNTEuNDQwOEw1MDYuMDMzIC0xMDMuNDhWNzMzLjMyOUwtMzcuMDg1NCA3NDkuMThaIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfNThfMjU0KSIvPgo8ZGVmcz4KPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDBfbGluZWFyXzU4XzI1NCIgeDE9IjI4MC41MDEiIHkxPSItNDIwLjQ5NCIgeDI9IjMwMi4xNDgiIHkyPSI3MDQuNTMiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzAwODA4MyIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzRkJFQzEiLz4KPC9saW5lYXJHcmFkaWVudD4KPC9kZWZzPgo8L3N2Zz4K"
+          class="big-ocean-triangle"
+        />
+      </div>
+    </div>
+  </body>
+</html>

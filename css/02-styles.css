@@ -19,8 +19,6 @@ body {
   display: flex;
   justify-content: flex-start;
   gap: 22px;
-  position: relative;
-  left: 21px;
 }
 
 .ergoferon-description {
