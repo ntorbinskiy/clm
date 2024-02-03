@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <style
+      data-href="/styles.31fcd09f215bec863359.css"
+      data-identity="gatsby-global-css"
+    >
+      @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap);
+      @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,600&display=swap);
+      a,
+      abbr,
+      acronym,
+      address,
+      applet,
+      article,
+      aside,
+      audio,
+      b,
+      big,
+      blockquote,
+      body,
+      canvas,
+      caption,
+      center,
+      cite,
+      code,
+      dd,
+      del,
+      details,
+      dfn,
+      div,
+      dl,
+      dt,
+      em,
+      embed,
+      fieldset,
+      figcaption,
+      figure,
+      footer,
+      form,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      header,
+      hgroup,
+      html,
+      i,
+      iframe,
+      img,
+      ins,
+      kbd,
+      label,
+      legend,
+      li,
+      mark,
+      menu,
+      nav,
+      object,
+      ol,
+      output,
+      p,
+      pre,
+      q,
+      ruby,
+      s,
+      samp,
+      section,
+      small,
+      span,
+      strike,
+      strong,
+      sub,
+      summary,
+      sup,
+      table,
+      tbody,
+      td,
+      tfoot,
+      th,
+      thead,
+      time,
+      tr,
+      tt,
+      u,
+      ul,
+      var,
+      video {
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        margin: 0;
+        padding: 0;
+        vertical-align: baseline;
+      }
+      article,
+      aside,
+      details,
+      figcaption,
+      figure,
+      footer,
+      header,
+      hgroup,
+      menu,
+      nav,
+      section {
+        display: block;
+      }
+      body {
+        line-height: 1;
+      }
+      blockquote,
+      q {
+        quotes: none;
+      }
+      blockquote:after,
+      blockquote:before,
+      q:after,
+      q:before {
+        content: "";
+        content: none;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      body {
+        font-family: Montserrat;
+      }
+      .content {
+        padding: 46px;
+      }
+      .small-ocean-triangle {
+        left: 0;
+        position: absolute;
+        top: 0;
+      }
+      .header {
+        align-items: center;
+        display: grid;
+        gap: 22px;
+        grid-template-areas: "title description" "divider divider";
+        grid-template-columns: auto 67%;
+        justify-content: start;
+      }
+      .header-description {
+        color: #000;
+        font-size: 35px;
+        font-weight: 700;
+        grid-area: description;
+        text-transform: uppercase;
+      }
+      .header-title {
+        align-items: flex-end;
+        color: #008083;
+        display: flex;
+        flex-direction: column;
+        font-size: 57px;
+        font-weight: 700;
+        grid-area: title;
+      }
+      .header-title > span {
+        font-size: 25px;
+        font-style: italic;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      .header-divider {
+        grid-area: divider;
+        position: relative;
+      }
+      .header-divider-line {
+        border-radius: 5px;
+        border-top: 4px solid #008083;
+      }
+      .header-divider-circle {
+        background-color: #008083;
+        border-radius: 50%;
+        height: 20px;
+        position: absolute;
+        right: -8px;
+        top: 0;
+        width: 20px;
+      }
+      .colored-text {
+        color: #008083;
+        font-size: 35px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      .footer-info {
+        align-items: center;
+        bottom: 33px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 43px 80%;
+        left: 46px;
+        position: absolute;
+      }
+      .footer-line {
+        background: linear-gradient(
+          90deg,
+          #008083 -23.72%,
+          rgba(9, 225, 186, 0) 145.24%
+        );
+        bottom: 0;
+        height: 21px;
+        position: absolute;
+        width: 100%;
+        z-index: -2;
+      }
+      .big-ocean-triangle {
+        bottom: 0;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+      }
+      .footer-home-icon {
+        bottom: 56px;
+        position: absolute;
+        right: 39px;
+      }
+      .subtitle {
+        color: #008083;
+        font-size: 30px;
+        font-weight: 500;
+        padding-top: 45px;
+        text-transform: uppercase;
+      }
+      .ergoferon-diagram-07 {
+        height: 500px;
+        width: 500px;
+      }
+      .blue-rounded-box {
+        background: #ceedff;
+        bottom: 27px;
+        padding: 35px 109px 52px 90px;
+      }
+      .blue-rounded-box-first {
+        border-radius: 0 376px 376px 0;
+        position: relative;
+        right: 46px;
+      }
+      .blue-rounded-box-second {
+        border-radius: 376px 0 0 376px;
+        left: 46px;
+        position: relative;
+      }
+      .blue-rounded-box-text-1,
+      .blue-rounded-box-text-1 > * {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 140%;
+        text-transform: none;
+      }
+      .blue-rounded-box-text-2,
+      .blue-rounded-box-text-2 > * {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 140%;
+      }
+      .light-blue-text {
+        -webkit-text-fill-color: transparent;
+        background: -webkit-linear-gradient(#1091da, #7dc5ed);
+        -webkit-background-clip: text;
+        font-weight: 700;
+      }
+      .diagram-box-07 {
+        align-items: center;
+        display: grid;
+        grid-template-columns: auto auto 0 auto;
+      }
+      .colors {
+        display: flex;
+        gap: 31px;
+        margin-left: 39px;
+        margin-top: 37px;
+      }
+      .color {
+        align-items: center;
+        display: flex;
+        gap: 17px;
+      }
+      .color-block {
+        border-radius: 12px;
+        height: 46px;
+        width: 46px;
+      }
+      .color-name {
+        color: #000;
+        font-size: 30px;
+        font-weight: 500;
+      }
+      .colors-07 {
+        justify-content: center;
+      }
+      .arrow {
+        bottom: 83px;
+        height: 5px;
+        position: relative;
+        right: 10px;
+        width: 79px;
+        z-index: 1;
+      }
+      .arrow,
+      .circle {
+        background: #0a7ab9;
+      }
+      .circle {
+        border-radius: 50%;
+        height: 20px;
+        left: -13px;
+        position: absolute;
+        top: -8px;
+        width: 20px;
+      }
+      .arrow-lines {
+        border: solid #0a7ab9;
+        border-radius: 3px;
+        border-width: 0 4px 4px 0;
+        display: inline-block;
+        padding: 7px;
+        position: absolute;
+        right: 0;
+        top: -6px;
+        transform: rotate(-45deg);
+      }
+      .groupIcon {
+        background: #d2f0f0;
+        display: flex;
+      }
+      .groupIcon1 {
+        border-radius: 376px 0 0 376px;
+        justify-content: flex-start;
+        padding: 46px 76px 23px 132px;
+      }
+      .groupIcon2 {
+        border-radius: 0 376px 376px 0;
+        padding: 77px 32px 77px 145px;
+        position: relative;
+        right: 46px;
+      }
+      .ergoferon-course-08 {
+        align-items: flex-end;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 56px;
+        justify-content: space-between;
+      }
+      .content-09 {
+        display: flex;
+        justify-content: center;
+      }
+      .content-10 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 75px;
+        row-gap: 20px;
+      }
+      .content-10-box-text {
+        color: #008083;
+        font-size: 95px;
+        font-weight: 700;
+      }
+      .content-10-box {
+        align-items: center;
+        background: #d2f0f0;
+        border-radius: 376px;
+        display: flex;
+      }
+      .content-10-box-1 {
+        gap: 124px;
+        padding: 54px 105px 54px 150px;
+      }
+      .content-10-box-2 {
+        gap: 150px;
+        padding: 52px 158px 52px 150px;
+      }
+      .content-10-text,
+      .content-10-text > * {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 140%;
+        padding-top: 37px;
+      }
+      .content-11 {
+        align-items: center;
+        flex-direction: column;
+      }
+      .content-11,
+      .content-11-box {
+        display: flex;
+      }
+      .content-11-sub-box {
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        position: relative;
+        right: 26px;
+        top: 126px;
+      }
+      .content-11-sub-box-item {
+        background: linear-gradient(
+          99.54deg,
+          #e10920 -5.518%,
+          #ff7785 105.556%
+        );
+        border-radius: 24px;
+        color: #fff;
+        display: flex;
+        font-size: 25px;
+        font-weight: 700;
+        justify-content: center;
+        letter-spacing: 0;
+        line-height: 140%;
+        padding: 9px 60px;
+        text-align: center;
+      }
+      .slide_11_4 {
+        position: relative;
+        top: 20px;
+      }
+      .slide_11_3 {
+        position: relative;
+        top: 86px;
+      }
+      .slide_11_6 {
+        bottom: 260px;
+        position: absolute;
+        right: 427px;
+      }
+      .slide_11_7 {
+        bottom: 269px;
+        left: 269px;
+        position: absolute;
+      }
+      .content-12 {
+        align-items: flex-end;
+        display: flex;
+      }
+      .content-12-colors {
+        bottom: 150px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+      .content-12 > img {
+        width: 80%;
+      }
+      .content-13 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      .slide_13_1 {
+        width: 60%;
+      }
+      .slide_13_2 {
+        width: 32%;
+      }
+      .bell-info {
+        align-items: flex-start;
+        display: flex;
+        gap: 24px;
+      }
+      .bell-description {
+        font-size: 24px;
+        font-weight: 700;
+      }
+      .bell-description span {
+        font-size: 24px;
+      }
+      .content-14 {
+        align-items: start;
+        display: flex;
+        margin-top: 157px;
+      }
+      .content-14 > div {
+        position: relative;
+        top: 40px;
+      }
+      .content-14-colors {
+        bottom: 76px;
+        position: relative;
+      }
+      .content-15 {
+        align-items: center;
+        display: grid;
+        gap: 70px;
+        grid-template-columns: 60% auto;
+        grid-template-rows: auto auto;
+        justify-items: end;
+      }
+      .slide_15_2 {
+        bottom: 454px;
+        grid-column-start: 2;
+        grid-row-start: 2;
+        position: relative;
+      }
+      .bell-info-15 {
+        bottom: 166px;
+        position: relative;
+      }
+      .content-17 {
+        align-items: flex-start;
+        margin-left: 300px;
+        margin-top: 46px;
+      }
+      .content-17,
+      .content-18 {
+        display: flex;
+        flex-direction: column;
+      }
+      .content-18 {
+        align-items: center;
+        margin-top: 80px;
+      }
+      .content-18-colors {
+        bottom: 83px;
+        position: relative;
+        right: 410px;
+      }
+      .content-22 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 63px;
+        margin-top: 107px;
+      }
+      .content-22-colors {
+        position: relative;
+        right: 230px;
+      }
+      .content-23,
+      .content-24 {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+      }
+      @media screen and (max-width: 1300px) {
+        .blue-rounded-box-text-1,
+        .blue-rounded-box-text-2 {
+          font-size: 20px;
+        }
+        .ergoferon-diagram-07 {
+          height: 250px;
+          width: 250px;
+        }
+        .slide-08-shield {
+          width: 300px;
+        }
+        .slide-08-groupIcon1 {
+          width: 600px;
+        }
+        .slide-08-2-groupIcon {
+          width: 300px;
+        }
+        .groupIcon1 {
+          border-radius: 376px 0 0 376px;
+          justify-content: flex-start;
+          padding: 51px 20px 42px;
+        }
+        .groupIcon2 {
+          border-radius: 0 376px 376px 0;
+          padding: 28px 20px 39px;
+          position: relative;
+          right: 46px;
+        }
+        .content-09 {
+          justify-content: center;
+        }
+        .content-09 > img {
+          width: 300px;
+        }
+        .content-10-box-1 > img,
+        .content-10-box-2 > img {
+          width: 200px;
+        }
+        .content-10-box-text {
+          font-size: 60px;
+        }
+        .slide_11_1,
+        .slide_11_2 {
+          width: 290px;
+        }
+        .content-11 {
+          align-items: normal;
+        }
+        .slide_11_6,
+        .slide_11_7 {
+          display: none;
+        }
+        .content-14-colors {
+          bottom: 70px;
+          flex-direction: column;
+          position: relative;
+        }
+        .content-14 > img {
+          width: 68%;
+        }
+        .slide_15_1 {
+          left: 44px;
+          position: relative;
+          width: 109%;
+        }
+        .slide_15_2 {
+          bottom: 322px;
+          width: 115%;
+        }
+        .content-17 {
+          margin-left: 0;
+        }
+        .slide_17_1 {
+          width: 900px;
+        }
+        .content-18 > img {
+          width: 905px;
+        }
+        .content-22 > img {
+          width: 900px;
+        }
+        .content-22-colors {
+          right: 67px;
+        }
+        .content-23 > img,
+        .content-24 > img {
+          width: 970px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="___gatsby">
+      <div style="outline: none" tabindex="-1" id="gatsby-focus-wrapper">
+        <div class="content">
+          <svg
+            width="48"
+            height="92"
+            viewBox="0 0 48 92"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="small-ocean-triangle"
+          >
+            <path d="M0 91.5L47.5 0H0V91.5Z" fill="rgb(124, 199, 0)"></path>
+          </svg>
+          <div class="header">
+            <h1 class="header-title" style="color: rgb(124, 199, 0)">
+              ТЕНОТЕН
+            </h1>
+            <span class="header-description" style="text-transform: none"
+              >більш ніж на
+              <span
+                class="colored-text"
+                style="color: rgb(124, 199, 0); text-transform: uppercase"
+                >80%</span
+              >
+              <!-- -->усуває головний біль та <br />емоційну лабільність у
+              пацієнтів з вегетативними дисфункціями.</span
+            >
+            <div class="header-divider">
+              <hr
+                class="header-divider-line"
+                style="border-color: rgb(124, 199, 0)"
+              />
+              <div
+                class="header-divider-circle"
+                style="background: rgb(124, 199, 0)"
+              ></div>
+            </div>
+          </div>
+          <h2
+            class="subtitle"
+            style="color: rgb(124, 199, 0); font-weight: 600"
+          >
+            Динаміка частоти скарг у дітей з вегетативними <br />дисфункціями
+            після курусу терапії Тенотеном дитячим
+          </h2>
+          <div class="content-24">
+            <img src="/static/graph-24-fd8d0383a4caf050435a5de859fa2b20.svg" />
+            <div class="colors undefined">
+              <div class="color">
+                <div
+                  class="color-block"
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      rgb(187, 187, 187),
+                      rgba(187, 187, 187, 0) 159.615%
+                    );
+                  "
+                ></div>
+                <div class="color-name">До лікування</div>
+              </div>
+              <div class="color">
+                <div
+                  class="color-block"
+                  style="
+                    background: linear-gradient(
+                      183.47deg,
+                      rgb(124, 199, 0) -32.656%,
+                      rgb(198, 245, 121) 92.306%
+                    );
+                  "
+                ></div>
+                <div class="color-name">Після лікування</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-info">
+          <img
+            src="/static/info-icon-3b5aa41470020ac76c50bd2409c43be3.svg"
+          /><span
+            >М.Ю. Галактіонова, И.Р. Ефективність використання «Тенотен
+            ддитячий» при лікування синдрому вегетатитивної дис</span
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
