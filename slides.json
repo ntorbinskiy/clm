@@ -146,41 +146,41 @@
     },
     {
       "mapname": "tenoten",
-      "name": "tenoten-dynamics",
-      "filename": "22-slide-tenoten-dynamics.html",
-      "preview": "22-preview-tenoten-dynamics.png",
+      "name": "tenoten_kids-dynamics",
+      "filename": "22-slide-tenoten_kids-dynamics.html",
+      "preview": "22-preview-tenoten_kids-dynamics.png",
       "position": 22,
       "ishidden": 0
     },
     {
       "mapname": "tenoten",
-      "name": "tenoten-dynamic-2",
-      "filename": "23-slide-tenoten-dynamics-2.html",
-      "preview": "23-preview-tenoten-dynamics-2.png",
+      "name": "tenoten_kids-dynamic-2",
+      "filename": "23-slide-tenoten_kids-dynamics-2.html",
+      "preview": "23-preview-tenoten_kids-dynamics-2.png",
       "position": 23,
       "ishidden": 0
     },
     {
       "mapname": "tenoten",
-      "name": "tenoten-dynamic-3",
-      "filename": "24-slide-tenoten-dynamics-3.html",
-      "preview": "24-preview-tenoten-dynamics-3.png",
+      "name": "tenoten_kids-dynamic-3",
+      "filename": "24-slide-tenoten_kids-dynamics-3.html",
+      "preview": "24-preview-tenoten_kids-dynamics-3.png",
       "position": 24,
       "ishidden": 0
     },
     {
       "mapname": "tenoten",
-      "name": "tenoten-dynamic-4",
-      "filename": "25-slide-tenoten-dynamics-4.html",
-      "preview": "25-preview-tenoten-dynamics-4.png",
+      "name": "tenoten_kids-dynamic-4",
+      "filename": "25-slide-tenoten_kids-dynamics-4.html",
+      "preview": "25-preview-tenoten_kids-dynamics-4.png",
       "position": 25,
       "ishidden": 0
     },
     {
       "mapname": "tenoten",
-      "name": "tenoten-dynamic-5",
-      "filename": "26-slide-tenoten-dynamics-5.html",
-      "preview": "26-preview-tenoten-dynamics-5.png",
+      "name": "tenoten_kids-dynamic-5",
+      "filename": "26-slide-tenoten_kids-dynamics-5.html",
+      "preview": "26-preview-tenoten_kids-dynamics-5.png",
       "position": 26,
       "ishidden": 0
     }
