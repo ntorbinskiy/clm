@@ -145,7 +145,7 @@
       "ishidden": 0
     },
     {
-      "mapname": "tenoten",
+      "mapname": "tenoten_kids",
       "name": "tenoten_kids-dynamics",
       "filename": "22-slide-tenoten_kids-dynamics.html",
       "preview": "22-preview-tenoten_kids-dynamics.png",
@@ -153,7 +153,7 @@
       "ishidden": 0
     },
     {
-      "mapname": "tenoten",
+      "mapname": "tenoten_kids",
       "name": "tenoten_kids-dynamic-2",
       "filename": "23-slide-tenoten_kids-dynamics-2.html",
       "preview": "23-preview-tenoten_kids-dynamics-2.png",
@@ -161,7 +161,7 @@
       "ishidden": 0
     },
     {
-      "mapname": "tenoten",
+      "mapname": "tenoten_kids",
       "name": "tenoten_kids-dynamic-3",
       "filename": "24-slide-tenoten_kids-dynamics-3.html",
       "preview": "24-preview-tenoten_kids-dynamics-3.png",
@@ -169,7 +169,7 @@
       "ishidden": 0
     },
     {
-      "mapname": "tenoten",
+      "mapname": "tenoten_kids",
       "name": "tenoten_kids-dynamic-4",
       "filename": "25-slide-tenoten_kids-dynamics-4.html",
       "preview": "25-preview-tenoten_kids-dynamics-4.png",
@@ -177,11 +177,43 @@
       "ishidden": 0
     },
     {
-      "mapname": "tenoten",
+      "mapname": "tenoten_kids",
       "name": "tenoten_kids-dynamic-5",
       "filename": "26-slide-tenoten_kids-dynamics-5.html",
       "preview": "26-preview-tenoten_kids-dynamics-5.png",
       "position": 26,
+      "ishidden": 0
+    },
+    {
+      "mapname": "tenoten",
+      "name": "tenoten-dynamics",
+      "filename": "30-slide-tenoten-dynamics.html",
+      "preview": "30-preview-tenoten-dynamics.png",
+      "position": 30,
+      "ishidden": 0
+    },
+    {
+      "mapname": "tenoten",
+      "name": "tenoten-dynamics-2",
+      "filename": "31-slide-tenoten-dynamics-2.html",
+      "preview": "31-preview-tenoten-dynamics-2.png",
+      "position": 31,
+      "ishidden": 0
+    },
+    {
+      "mapname": "tenoten",
+      "name": "tenoten-comparison",
+      "filename": "32-slide-tenoten-comparison.html",
+      "preview": "32-preview-tenoten-comparison.png",
+      "position": 32,
+      "ishidden": 0
+    },
+    {
+      "mapname": "tenoten",
+      "name": "tenoten-dynamics-3",
+      "filename": "34-slide-tenoten-dynamics-3.html",
+      "preview": "34-preview-tenoten-dynamics-3.png",
+      "position": 34,
       "ishidden": 0
     }
   ]
