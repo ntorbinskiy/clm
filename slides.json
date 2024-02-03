@@ -89,11 +89,19 @@
       "ishidden": 0
     },
     {
-      "mapname": "ergoferon",
-      "name": "ergoferon-variety",
-      "filename": "09-slide-ergoferon-variety.html",
-      "preview": "09-preview-ergoferon-variety.png",
-      "position": 9,
+      "mapname": "renagalin",
+      "name": "renagalin-description",
+      "filename": "11-slide-renagalin-description.html",
+      "preview": "11-preview-renagalin-description.png",
+      "position": 11,
+      "ishidden": 0
+    },
+    {
+      "mapname": "renagalin",
+      "name": "ergoferon-impact",
+      "filename": "12-slide-ergoferon-impact.html",
+      "preview": "12-preview-ergoferon-impact.png",
+      "position": 12,
       "ishidden": 0
     }
   ]
