@@ -127,6 +127,22 @@
       "preview": "15-preview-renagalin-reduction.png",
       "position": 15,
       "ishidden": 0
+    },
+    {
+      "mapname": "renagalin",
+      "name": "renagalin-impact-2",
+      "filename": "17-slide-renagalin-impact-2.html",
+      "preview": "17-preview-renagalin-impact-2.png",
+      "position": 17,
+      "ishidden": 0
+    },
+    {
+      "mapname": "renagalin",
+      "name": "renagalin-statystics",
+      "filename": "18-slide-renagalin-statystics.html",
+      "preview": "18-preview-renagalin-statystics",
+      "position": 18,
+      "ishidden": 0
     }
   ]
 }
