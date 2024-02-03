@@ -71,6 +71,30 @@
       "preview": "08-preview-ergoferon-course.png",
       "position": 8,
       "ishidden": 0
+    },
+    {
+      "mapname": "ergoferon",
+      "name": "ergoferon-variety",
+      "filename": "09-slide-ergoferon-variety.html",
+      "preview": "09-preview-ergoferon-variety.png",
+      "position": 9,
+      "ishidden": 0
+    },
+    {
+      "mapname": "ergoferon",
+      "name": "ergoferon-schema",
+      "filename": "10-slide-ergoferon-schema.html",
+      "preview": "10-preview-ergoferon-schema.png",
+      "position": 10,
+      "ishidden": 0
+    },
+    {
+      "mapname": "ergoferon",
+      "name": "ergoferon-variety",
+      "filename": "09-slide-ergoferon-variety.html",
+      "preview": "09-preview-ergoferon-variety.png",
+      "position": 9,
+      "ishidden": 0
     }
   ]
 }
