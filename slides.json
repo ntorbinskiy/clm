@@ -143,6 +143,22 @@
       "preview": "18-preview-renagalin-statystics",
       "position": 18,
       "ishidden": 0
+    },
+    {
+      "mapname": "tenoten",
+      "name": "tenoten-dynamics",
+      "filename": "22-slide-tenoten-dynamics.html",
+      "preview": "22-preview-tenoten-dynamics",
+      "position": 22,
+      "ishidden": 0
+    },
+    {
+      "mapname": "tenoten",
+      "name": "tenoten-dynamic-2",
+      "filename": "23-slide-tenoten-dynamics-2.html",
+      "preview": "23-preview-tenoten-dynamics-2",
+      "position": 23,
+      "ishidden": 0
     }
   ]
 }
