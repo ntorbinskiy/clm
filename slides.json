@@ -103,6 +103,30 @@
       "preview": "12-preview-ergoferon-impact.png",
       "position": 12,
       "ishidden": 0
+    },
+    {
+      "mapname": "renagalin",
+      "name": "renagalin-difficulty",
+      "filename": "13-slide-renagalin-difficulty.html",
+      "preview": "13-preview-renagalin-difficulty.png",
+      "position": 13,
+      "ishidden": 0
+    },
+    {
+      "mapname": "renagalin",
+      "name": "renagalin-normalizing",
+      "filename": "14-slide-renagalin-normalizing.html",
+      "preview": "14-preview-renagalin-normalizing.png",
+      "position": 14,
+      "ishidden": 0
+    },
+    {
+      "mapname": "renagalin",
+      "name": "renagalin-reduction",
+      "filename": "15-slide-renagalin-reduction.html",
+      "preview": "15-preview-renagalin-reduction.png",
+      "position": 15,
+      "ishidden": 0
     }
   ]
 }
