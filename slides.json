@@ -98,9 +98,9 @@
     },
     {
       "mapname": "renagalin",
-      "name": "ergoferon-impact",
-      "filename": "12-slide-ergoferon-impact.html",
-      "preview": "12-preview-ergoferon-impact.png",
+      "name": "renagalin-impact",
+      "filename": "12-slide-renagalin-impact.html",
+      "preview": "12-preview-renagalin-impact.png",
       "position": 12,
       "ishidden": 0
     },
@@ -130,6 +130,14 @@
     },
     {
       "mapname": "renagalin",
+      "name": "renagalin-diagram",
+      "filename": "16-slide-renagalin-diagram.html",
+      "preview": "16-preview-renagalin-diagram.png",
+      "position": 16,
+      "ishidden": 0
+    },
+    {
+      "mapname": "renagalin",
       "name": "renagalin-impact-2",
       "filename": "17-slide-renagalin-impact-2.html",
       "preview": "17-preview-renagalin-impact-2.png",
@@ -142,6 +150,22 @@
       "filename": "18-slide-renagalin-statistics.html",
       "preview": "18-preview-renagalin-statistics.png",
       "position": 18,
+      "ishidden": 0
+    },
+    {
+      "mapname": "renagalin",
+      "name": "renagalin-schema",
+      "filename": "19-slide-renagalin-schema.html",
+      "preview": "19-preview-renagalin-schema.png",
+      "position": 19,
+      "ishidden": 0
+    },
+    {
+      "mapname": "tenoten_kids",
+      "name": "tenoten_kids-modification",
+      "filename": "20-slide-tenoten_kids-modification.html",
+      "preview": "25-preview-tenoten_kids-modification.png",
+      "position": 20,
       "ishidden": 0
     },
     {
@@ -185,66 +209,122 @@
       "ishidden": 0
     },
     {
+      "mapname": "tenoten_kids",
+      "name": "tenoten_kids-dynamics-6",
+      "filename": "26-slide-tenoten_kids-dynamics-6.html",
+      "preview": "26-preview-tenoten_kids-dynamics-6.png",
+      "position": 26,
+      "ishidden": 0
+    },
+    {
+      "mapname": "tenoten_kids",
+      "name": "tenoten_kids-schema",
+      "filename": "27-slide-tenoten_kids-schema.html",
+      "preview": "24-preview-tenoten_kids-schema.png",
+      "position": 27,
+      "ishidden": 0
+    },
+    {
+      "mapname": "tenoten",
+      "name": "tenoten-modification",
+      "filename": "28-slide-tenoten-modification.html",
+      "preview": "29-preview-tenoten-modification.png",
+      "position": 28,
+      "ishidden": 0
+    },
+    {
       "mapname": "tenoten",
       "name": "tenoten-dynamics",
-      "filename": "30-slide-tenoten-dynamics.html",
-      "preview": "30-preview-tenoten-dynamics.png",
-      "position": 30,
+      "filename": "29-slide-tenoten-dynamics.html",
+      "preview": "29-preview-tenoten-dynamics.png",
+      "position": 29,
       "ishidden": 0
     },
     {
       "mapname": "tenoten",
       "name": "tenoten-dynamics-2",
-      "filename": "31-slide-tenoten-dynamics-2.html",
-      "preview": "31-preview-tenoten-dynamics-2.png",
-      "position": 31,
+      "filename": "30-slide-tenoten-dynamics-2.html",
+      "preview": "30-preview-tenoten-dynamics-2.png",
+      "position": 30,
       "ishidden": 0
     },
     {
       "mapname": "tenoten",
       "name": "tenoten-comparison",
-      "filename": "32-slide-tenoten-comparison.html",
-      "preview": "32-preview-tenoten-comparison.png",
+      "filename": "31-slide-tenoten-comparison.html",
+      "preview": "31-preview-tenoten-comparison.png",
+      "position": 31,
+      "ishidden": 0
+    },
+    {
+      "mapname": "tenoten",
+      "name": "tenoten-diagram",
+      "filename": "32-slide-tenoten-diagram.html",
+      "preview": "32-preview-tenoten-diagram.png",
       "position": 32,
       "ishidden": 0
     },
     {
       "mapname": "tenoten",
       "name": "tenoten-dynamics-3",
-      "filename": "34-slide-tenoten-dynamics-3.html",
-      "preview": "34-preview-tenoten-dynamics-3.png",
+      "filename": "33-slide-tenoten-dynamics-3.html",
+      "preview": "33-preview-tenoten-dynamics-3.png",
+      "position": 33,
+      "ishidden": 0
+    },
+    {
+      "mapname": "tenoten",
+      "name": "tenoten-schema",
+      "filename": "34-slide-tenoten-schema.html",
+      "preview": "34-preview-tenoten-schema.png",
       "position": 34,
       "ishidden": 0
     },
     {
       "mapname": "anaferon_kids",
       "name": "anaferon_kids-statystics",
-      "filename": "36-slide-anaferon_kids-statystics.html",
-      "preview": "36-preview-anaferon_kids-statystics.png",
-      "position": 36,
+      "filename": "35-slide-anaferon_kids-statystics.html",
+      "preview": "35-preview-anaferon_kids-statystics.png",
+      "position": 35,
       "ishidden": 0
     },
     {
       "mapname": "anaferon_kids",
       "name": "anaferon_kids-effects",
-      "filename": "37-slide-anaferon_kids-effects.html",
-      "preview": "37-preview-anaferon_kids-effects.png",
+      "filename": "36-slide-anaferon_kids-effects.html",
+      "preview": "36-preview-anaferon_kids-effects.png",
+      "position": 36,
+      "ishidden": 0
+    },
+    {
+      "mapname": "anaferon_kids",
+      "name": "anaferon_kids-cons",
+      "filename": "37-slide-anaferon_kids-cons.html",
+      "preview": "37-preview-anaferon_kids-cons.png",
       "position": 37,
       "ishidden": 0
     },
     {
       "mapname": "anaferon",
       "name": "anaferon-statystics",
-      "filename": "39-slide-anaferon-statystics.html",
-      "preview": "39-preview-anaferon-statystics.png",
-      "position": 39,
+      "filename": "38-slide-anaferon-statystics.html",
+      "preview": "38-preview-anaferon-statystics.png",
+      "position": 38,
       "ishidden": 0
     },
     {
       "mapname": "anaferon",
       "name": "anaferon-duration",
-      "filename": "40-slide-anaferon-duration.html",
-      "preview": "40-preview-anaferon-duration.png",
+      "filename": "39-slide-anaferon-duration.html",
+      "preview": "39-preview-anaferon-duration.png",
+      "position": 39,
+      "ishidden": 0
+    },
+    {
+      "mapname": "anaferon",
+      "name": "anaferon-cons",
+      "filename": "40-slide-anaferon-cons.html",
+      "preview": "40-preview-anaferon-cons.png",
       "position": 40,
       "ishidden": 0
     }
