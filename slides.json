@@ -131,17 +131,17 @@
     {
       "mapname": "renagalin",
       "name": "renagalin-impact-2",
-      "filename": "17-slide-renagalin-impact-2.html",
-      "preview": "17-preview-renagalin-impact-2.png",
-      "position": 17,
+      "filename": "18-slide-renagalin-impact-2.html",
+      "preview": "18-preview-renagalin-impact-2.png",
+      "position": 18,
       "ishidden": 0
     },
     {
       "mapname": "renagalin",
       "name": "renagalin-statistics",
-      "filename": "18-slide-renagalin-statistics.html",
-      "preview": "18-preview-renagalin-statistics.png",
-      "position": 18,
+      "filename": "19-slide-renagalin-statistics.html",
+      "preview": "19-preview-renagalin-statistics.png",
+      "position": 19,
       "ishidden": 0
     },
     {
@@ -214,6 +214,38 @@
       "filename": "34-slide-tenoten-dynamics-3.html",
       "preview": "34-preview-tenoten-dynamics-3.png",
       "position": 34,
+      "ishidden": 0
+    },
+    {
+      "mapname": "anaferon_kids",
+      "name": "anaferon_kids-statystics",
+      "filename": "36-slide-anaferon_kids-statystics.html",
+      "preview": "36-preview-anaferon_kids-statystics.png",
+      "position": 36,
+      "ishidden": 0
+    },
+    {
+      "mapname": "anaferon_kids",
+      "name": "anaferon_kids-effects",
+      "filename": "37-slide-anaferon_kids-effects.html",
+      "preview": "37-preview-anaferon_kids-effects.png",
+      "position": 37,
+      "ishidden": 0
+    },
+    {
+      "mapname": "anaferon",
+      "name": "anaferon-statystics",
+      "filename": "39-slide-anaferon-statystics.html",
+      "preview": "39-preview-anaferon-statystics.png",
+      "position": 39,
+      "ishidden": 0
+    },
+    {
+      "mapname": "anaferon",
+      "name": "anaferon-duration",
+      "filename": "40-slide-anaferon-duration.html",
+      "preview": "40-preview-anaferon-duration.png",
+      "position": 40,
       "ishidden": 0
     }
   ]
