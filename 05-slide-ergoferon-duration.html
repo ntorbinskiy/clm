@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/02-styles.css" />
+    <title>Ergoferon duration</title>
+  </head>
+  <style>
+    .ergoferon {
+      width: 20vw;
+      height: 355px;
+    }
+
+    @media screen and (max-width: 1400px) {
+      .dynamics-graph {
+        width: 66%;
+        height: 50vh;
+      }
+      .mechanisms-info {
+        grid-template-columns: 5% 77% !important;
+        font-size: 11px !important;
+      }
+
+      .dynamics {
+        gap: 0px !important;
+      }
+    }
+
+    body {
+      padding: 0;
+    }
+
+    .divider {
+      width: 94%;
+    }
+
+    .bell-info {
+      line-height: 140%;
+    }
+
+    .mechanisms-info {
+      font-size: 14px;
+      grid-template-columns: 3% 85%;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+
+    .dynamics {
+      gap: 138px;
+    }
+
+    .colors {
+      flex-direction: column;
+    }
+  </style>
+  <body>
+    <div class="content">
+      <img
+        src="static/small-ocean-triangle.svg"
+        alt="small-ocean-triangle"
+        class="triangle small-ocean-triangle"
+      />
+      <div class="ergoferon-header">
+        <h1 class="ergoferon-title">ЕРГОФЕРОН</h1>
+        <span class="ergoferon-description"
+          >Вже через 2 дні усуває симптоми інтоксикації у
+          <span class="blue-text">65%</span>, катаральні<br />
+          у
+          <span class="blue-text">41%</span>
+          згідно результатам дослідження «Ермітаж»:
+          <span class="blue-text">8 411</span> пацієнтів.
+        </span>
+      </div>
+      <div class="divider">
+        <hr class="divider-line" />
+        <div class="divider-circle"></div>
+      </div>
+      <h3 class="dynamics-header">ТРИВАЛІСТЬ СИМПТОМІВ ГРВІ, ДНІ</h3>
+      <div class="dynamics">
+        <img
+          src="static/ergoferon-duration.png"
+          alt="ergoferon-dynamics"
+          class="dynamics-graph"
+        />
+        <div class="info">
+          <img src="static/ergoferon.jpg" alt="ergoferon" class="ergoferon" />
+          <div class="colors">
+            <div class="color">
+              <div class="color-block grey"></div>
+              <div class="color-name">1-й день</div>
+            </div>
+
+            <div class="color">
+              <div class="color-block blue"></div>
+              <div class="color-name">2-й день</div>
+            </div>
+            <div class="color">
+              <div class="color-block ocean"></div>
+              <div class="color-name">3-й день</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mechanisms-info">
+        <img src="static/info-icon.svg" alt="info-icon" />
+        <span
+          >І.А. Мітюряєва, Ефективність універсальної противірусної терапії при
+          ГРВІ «Медична газета «Здоров'я України», № 17 (438), вересень 2018 р.,
+          с. 18-19; А.В. Возняк, Оптимізація лікування гострих респіраторних
+          інфекцій у дітей, ЗУ «Педіатрія», № 3 (50), 2019 р.; Безшапочний С.Б.,
+          Гичак С.Б., Оптимізація терапії гострих респіраторно вірусних інфекцій
+          верхніх дихальних шляхів у дорослих та дітей, Новини медицини та
+          фармації, № 7 (694) , 2019 р.; Геппе Н.А. і співавт., Лікування ГРВІ
+          та Грипу в амбулаторно-поліклінічній практиці: результати міжнародної
+          спостережної неінтервенційної програми "Ермітаж«, Терапія, №8 (18),
+          2017 р.
+        </span>
+      </div>
+    </div>
+
+    <div class="footer-line"></div>
+    <img class="home-icon" src="static/home-icon.png" alt="home-icon" />
+    <img
+      class="big-ocean-triangle"
+      src="static/big-ocean-triangle.svg"
+      alt=""
+    />
+  </body>
+</html>

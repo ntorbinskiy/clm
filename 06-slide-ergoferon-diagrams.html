@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/02-styles.css" />
+    <title>Ergoferon duration</title>
+  </head>
+  <style>
+    .content {
+      padding-right: 0;
+    }
+
+    .ergoferon {
+      width: 20vw;
+      height: 355px;
+    }
+
+    body {
+      padding: 0;
+    }
+
+    .divider {
+      width: 68%;
+    }
+
+    .bell-info {
+      line-height: 140%;
+    }
+
+    .mechanisms-info {
+      font-size: 14px;
+      grid-template-columns: 3% 85%;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+
+    .dynamics {
+      gap: 138px;
+    }
+
+    .color-name {
+      font-size: 25px;
+    }
+
+    .color-name > * {
+      font-size: 25px;
+    }
+
+    .arrow {
+      position: relative;
+      width: 171px;
+      height: 5px;
+      background: rgb(0, 128, 131);
+    }
+
+    .circle {
+      position: absolute;
+      top: -8px;
+      left: -13px;
+
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: rgb(0, 128, 131);
+    }
+
+    .arrow-lines {
+      position: absolute;
+      right: 0px;
+      top: -6px;
+
+      display: inline-block;
+      padding: 7px;
+
+      border: solid rgb(0, 128, 131);
+      border-width: 0 4px 4px 0;
+      border-radius: 3px;
+      transform: rotate(-45deg);
+    }
+
+    .diagrams {
+      display: grid;
+      grid-template-columns: 567px auto auto;
+      align-items: center;
+    }
+
+    .ergoferon-diagram-2 {
+      height: 80%;
+    }
+
+    .colors-small {
+      display: grid;
+      row-gap: 33px;
+    }
+    .color-small {
+      width: 28px;
+      height: 28px;
+      border-radius: 7.3px;
+      gap: 20px;
+    }
+
+    .color-name-small {
+      font-size: 20px !important;
+    }
+    .diagram-2 {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      border-radius: 376px 0px 0px 376px;
+      background: rgb(210, 240, 240);
+      z-index: -1;
+    }
+
+    .diagram-2-colors {
+      display: grid;
+      grid-template-columns: 40% auto;
+      align-items: center;
+      justify-items: end;
+    }
+
+    .diagram-2-text {
+      font-size: 30px;
+      font-weight: 500;
+      position: relative;
+      top: 65px;
+    }
+    .diagram-2-text-2 {
+      position: relative;
+      top: -85px;
+      left: 91px;
+    }
+
+    .bold {
+      font-weight: 700;
+    }
+
+    @media screen and (max-width: 1400px) {
+      .dynamics-graph {
+        width: 66%;
+        height: 50vh;
+      }
+      .mechanisms-info {
+        grid-template-columns: 5% 77% !important;
+        font-size: 11px !important;
+      }
+
+      .dynamics {
+        gap: 0px !important;
+      }
+
+      .ergoferon-diagram-1 {
+        width: 300px;
+      }
+
+      .diagrams {
+        grid-template-columns: 300px auto auto;
+      }
+
+      .ergoferon-diagram-2 {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  </style>
+  <body>
+    <div class="content">
+      <img
+        src="static/small-ocean-triangle.svg"
+        alt="small-ocean-triangle"
+        class="triangle small-ocean-triangle"
+      />
+      <div class="ergoferon-header">
+        <h1 class="ergoferon-title">ЕРГОФЕРОН</h1>
+        <span class="ergoferon-description"
+          >дозволяє виключити прийом засобів <br />симптоматичної терапії у
+          <span class="blue-text">49%</span>
+          пацієнтів
+        </span>
+      </div>
+      <div class="divider">
+        <hr class="divider-line" />
+        <div class="divider-circle"></div>
+      </div>
+      <h3 class="dynamics-header">
+        ЧАСТКА ПАЦІЄНТІВ, ЩО ОТРИМУВАЛИ ТА НЕ ОТРИМУВАЛИ ДОДАТКОВО ІНШІ
+        ЛІКАРСЬКІ ЗАСОБИ
+      </h3>
+
+      <div class="diagrams">
+        <div class="diagram-1">
+          <img
+            src="static/ergoferon-diagram-1.png"
+            alt="ergoferon-diagram-1"
+            class="ergoferon-diagram-1"
+          />
+        </div>
+        <div class="arrow">
+          <div class="circle"></div>
+          <div class="arrow-lines"></div>
+        </div>
+        <div class="diagram-2">
+          <h3 class="diagram-2-text">
+            <span class="bold"> 53%</span> засоби, що діють на респіраторну
+            систему
+          </h3>
+
+          <div class="diagram-2-colors">
+            <img
+              src="static/ergoferon-diagram-2-2.png"
+              alt="ergoferon-diagram-2"
+              class="ergoferon-diagram-2"
+            />
+            <div class="colors-small">
+              <div class="color">
+                <div
+                  class="color-small"
+                  style="background: rgb(42, 30, 181)"
+                ></div>
+                <div class="color-name color-name-small">
+                  Препарати для лікування захворювань горла
+                </div>
+              </div>
+              <div class="color">
+                <div
+                  class="color-small"
+                  style="background: rgb(141, 133, 234)"
+                ></div>
+                <div class="color-name color-name-small">
+                  Антигістамінні препарати
+                </div>
+              </div>
+              <div class="color">
+                <div
+                  class="color-small"
+                  style="background: rgb(8, 207, 184)"
+                ></div>
+                <div class="color-name color-name-small">
+                  Препарати для лікування обструктивних <br />захворювань
+                  дихальних шляхів
+                </div>
+              </div>
+              <div class="color">
+                <div
+                  class="color-small"
+                  style="background: rgb(133, 195, 71)"
+                ></div>
+                <div class="color-name color-name-small">
+                  Інші препарати для лікування<br />
+                  захворювань дихальної системи
+                </div>
+              </div>
+              <div class="color">
+                <div
+                  class="color-small"
+                  style="background: rgb(89, 162, 247)"
+                ></div>
+                <div class="color-name color-name-small">Деконгестанти</div>
+              </div>
+              <div class="color">
+                <div
+                  class="color-small"
+                  style="background: rgb(73, 193, 100)"
+                ></div>
+                <div class="color-name color-name-small">
+                  Протикашльові і відхаркувальні препарати
+                </div>
+              </div>
+            </div>
+          </div>
+          <span class="diagram-2-text diagram-2-text-2">
+            <span class="bold">14%</span> антипіретики та анальгетики <br />
+            <span class="bold">33%</span> інші
+          </span>
+        </div>
+      </div>
+      <div class="colors">
+        <div class="color">
+          <div class="color-block blue"></div>
+          <div class="color-name">
+            Отримували <span class="blue-text">Ергоферон</span> у<br />
+            вигляді монотерапії
+          </div>
+        </div>
+        <div class="color">
+          <div class="color-block ocean"></div>
+          <div class="color-name">
+            Отримували <span class="blue-text">Ергоферон</span> в
+            <br />комбінації з іншими <br />лікарськими засобами
+          </div>
+        </div>
+      </div>
+      <div class="mechanisms-info">
+        <img src="static/info-icon.svg" alt="info-icon" />
+        <span
+          >І.А. Мітюряєва, Ефективність універсальної противірусної терапії при
+          ГРВІ «Медична газета «Здоров'я України», № 17 (438), вересень 2018 р.,
+          с. 18-19; І.А. Мітюряєва, Противірусна терапія при ГРВІ у стримуванні
+          зростання антибіотикорезистентності, ЗУ «Педіатрія» №1 (48), березень
+          2019 р., с. 8-9; Геппе Н.А. і співавт., Лікування ГРВІ та Грипу в
+          амбулаторно-поліклінічній практиці: результати міжнародної
+          спостережної неінтервенційної програми "Ермітаж«, Терапія, №8 (18),
+          2017 р.
+        </span>
+      </div>
+    </div>
+
+    <div class="footer-line"></div>
+    <img class="home-icon" src="static/home-icon.png" alt="home-icon" />
+    <img
+      class="big-ocean-triangle"
+      src="static/big-ocean-triangle.svg"
+      alt=""
+    />
+  </body>
+</html>
